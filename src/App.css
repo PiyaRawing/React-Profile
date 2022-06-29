@@ -1,0 +1,65 @@
+:root {
+  --sidebar-flex: 1;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.4rem;
+  --typing-font: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Mali', cursive;
+  background-image: url("https://media.discordapp.net/attachments/984385907094351874/985961923940061235/Screenshot_91.png?width=1193&height=671");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.condiv {
+  padding: 0px;
+  flex: auto;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 200px;
+  margin: 30px;
+  box-shadow: 3px 3px 5px #333;
+}
+
+.social {
+  position: absolute;
+  display:flex;
+  bottom: 40px;
+  
+}
+
+.social i {
+  padding-left: 40px;
+  font-size: 40px;
+  color: #dadada;
+}
+
+.social i:hover {
+  color: #333;
+}
+
+.typingeffect {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
